@@ -11,5 +11,7 @@ enum class EWeaponType : uint8
 	EWT_Shotgun      UMETA(DisplayName = "Shotgun"),
 	EWT_Grenade      UMETA(DisplayName = "Grenade Launcher"),
 	EWT_Melee        UMETA(DisplayName = "Melee"),
+	EWT_Health        UMETA(DisplayName = "Health"),
+	EWT_Food        UMETA(DisplayName = "Food"),
 	EWT_MAX          UMETA(Hidden)
 };
